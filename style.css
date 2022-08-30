@@ -1,0 +1,34 @@
+body{
+    font-family: 'Aboreto', cursive;
+    margin: 0%;
+}
+h1{
+    font-size: 40px;
+}
+.name-highlight{
+    color: rgb(252, 219, 7);
+}
+.half-width{
+    width: 35%;
+    float: left;
+    margin: 5%;
+    padding: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.top-banner{
+    background-image: url(picture/top-banner.png);
+    background-repeat: no-repeat;
+}
+section{
+    height: 1150px;
+}
+.kink-button{
+    text-decoration: none;
+    background-image: linear-gradient(blue, black);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
