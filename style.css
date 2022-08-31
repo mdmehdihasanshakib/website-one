@@ -1,12 +1,15 @@
 body{
-    font-family: 'Aboreto', cursive;
+    font-family: 'Raleway', sans-serif;
     margin: 0%;
 }
 h1{
-    font-size: 40px;
+    font-size: 35px;
 }
 .name-highlight{
-    color: rgb(252, 219, 7);
+    color: rgb(7, 125, 252);
+}
+.font-co-1{
+    color: tomato
 }
 .half-width{
     width: 35%;
@@ -15,11 +18,13 @@ h1{
     padding: 2%;
 }
 .half-width img{
-    width: 100%;
+    width: 70%;
+    border-radius: 2%;
 }
 .top-banner{
     background-image: url(picture/top-banner.png);
     background-repeat: no-repeat;
+    background-size: 100%;
 }
 .banner{
     background-image: url(picture/dream-bg.png);
@@ -32,7 +37,7 @@ h1{
     background-position: left;
 }
 section{
-    height: 800px;
+    height: 535px;
 }
 .kink-button{
     text-decoration: none;
