@@ -21,8 +21,18 @@ h1{
     background-image: url(picture/top-banner.png);
     background-repeat: no-repeat;
 }
+.banner{
+    background-image: url(picture/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.bottom-banner{
+    background-image: url(picture/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
 section{
-    height: 1150px;
+    height: 800px;
 }
 .kink-button{
     text-decoration: none;
@@ -31,4 +41,19 @@ section{
     border-radius: 5px;
     color: white;
     font-weight: 700;
+}
+.exprein{
+    box-shadow: 10px 10px 40px rgb(26, 184, 26);
+    border-radius: 5px;
+    height: 40%;
+}
+#full-stake{
+    border-left: 10px solid;
+    border-image: linear-gradient(180deg, red, green);
+    border-image-slice: 1;
+}
+#baby{
+    border-left: 10px solid;
+    border-image: linear-gradient(180deg, rgb(217, 241, 6), rgb(38, 5, 226));
+    border-image-slice: 1;
 }
